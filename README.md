@@ -41,11 +41,11 @@ Complete the initial setup process and allow it to install all required dependen
 
 ### 2. Add the SREMB Keyboard Files
 
-Locate the folder named: SREMB
+Locate the folder named: sremb
 
 Copy the entire folder into: qmk_firmware/keyboards/handwired
 
-After copying, the folder structure should look like this: qmk_firmware/keyboards/handwired/SREMB
+After copying, the folder structure should look like this: qmk_firmware/keyboards/handwired/sremb
 
 
 ### 3. Compile and Flash the Firmware
@@ -59,21 +59,21 @@ Then flash the firmware using: qmk flash -kb handwired/sremb -km default
 ## Pinout & Wiring
 
 ### MX Switch Matrix:
-Row 0	GP8
-Row 1	GP9
-Col 0	GP10
-Col 1	GP11
-Col 2	GP12
-Col 3	GP13
+- Row 0:	GP8
+- Row 1:	GP9
+- Col 0:	GP10
+- Col 1:	GP11
+- Col 2:	GP12
+- Col 3:	GP13
 
 ### OLED Display:
-SDA	GP4
-SCL	GP5
+- SDA:	GP4
+- SCL:	GP5
 
 ### Rotary Encoder:
-TRA	GP6
-TRB	GP7
-PSH	GP14
+- TRA:	GP6
+- TRB:	GP7
+- PSH:	GP14
 
 
 ### Wiring Matrix Layout:
