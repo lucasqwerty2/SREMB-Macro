@@ -28,6 +28,53 @@ A custom 8-key mechanical macro pad built around the Raspberry Pi Pico (RP2040),
 
 ---
 
-## Pin Maping & Build Instructions
+## Firmware Setup
 
-Please see the instructions page
+### 1. Install QMK MSYS
+
+Download and install QMK MSYS
+
+Open QMK MSYS after installation
+
+Complete the initial setup process and allow it to install all required dependencies
+
+
+### 2. Add the SREMB Keyboard Files
+
+Locate the folder named: SREMB
+
+Copy the entire folder into: qmk_firmware/keyboards/handwired
+
+After copying, the folder structure should look like this: qmk_firmware/keyboards/handwired/SREMB
+
+
+### 3. Compile and Flash the Firmware
+
+Open QMK MSYS and run: qmk compile -kb handwired/sremb -km default
+
+Then flash the firmware using: qmk flash -kb handwired/sremb -km default
+
+
+
+## Pinout & Wiring
+
+### MX Switch Matrix:
+Row 0	GP8
+Row 1	GP9
+Col 0	GP10
+Col 1	GP11
+Col 2	GP12
+Col 3	GP13
+
+### OLED Display:
+SDA	GP4
+SCL	GP5
+
+### Rotary Encoder:
+TRA	GP6
+TRB	GP7
+PSH	GP14
+
+
+### Wiring Matrix Layout:
+
