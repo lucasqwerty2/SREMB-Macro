@@ -59,21 +59,21 @@ Then flash the firmware using: qmk flash -kb handwired/sremb -km default
 ## Pinout & Wiring
 
 ### MX Switch Matrix:
-- Row 0:	GP8
-- Row 1:	GP9
-- Col 0:	GP10
-- Col 1:	GP11
-- Col 2:	GP12
-- Col 3:	GP13
+- GP9:  Row0
+- GP10:  Row1
+- GP11: Col0
+- GP12: Col1
+- GP13: Col2
+- GP14: Col3
 
 ### OLED Display:
-- SDA:	GP4
-- SCL:	GP5
+- GP4: SDA
+- GP5: SCL
 
 ### Rotary Encoder:
-- TRA:	GP6
-- TRB:	GP7
-- PSH:	GP14
+- GP6: TRA
+- GP7: TRB
+- GP8: PSH
 
 
 ### Wiring Matrix Layout:
