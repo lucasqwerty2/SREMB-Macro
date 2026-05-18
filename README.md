@@ -54,7 +54,7 @@ Open QMK MSYS and run: qmk compile -kb handwired/sremb -km default
 
 Then flash the firmware using: qmk flash -kb handwired/sremb -km default
 
-
+---
 
 ## Pinout & Wiring
 
