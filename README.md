@@ -78,3 +78,4 @@ Then flash the firmware using: qmk flash -kb handwired/sremb -km default
 
 ### Wiring Matrix Layout:
 
+<img width="1341" height="927" alt="Screenshot 2026-05-24 103130" src="https://github.com/user-attachments/assets/79217557-3da0-4322-ba2f-bdd17784218f" />
