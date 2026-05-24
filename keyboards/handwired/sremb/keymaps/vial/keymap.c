@@ -1,6 +1,5 @@
 #include QMK_KEYBOARD_H
 
-// Using the exact layout identifier defined in info.json
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         KC_A, KC_B, KC_C, KC_D,
@@ -20,7 +19,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     )
 };
 
-/* DIRECT PIN ENCODER BUTTON HANDLING (GP8) */
 static bool gp8_pressed = false;
 
 void keyboard_post_init_user(void) {
@@ -41,7 +39,6 @@ void matrix_scan_user(void) {
     }
 }
 
-/* ROTARY ENCODER FALLBACK ROTATION HANDLING */
 bool encoder_update_user(uint8_t index, bool clockwise) {
     if (index == 0) { 
         if (clockwise) {
