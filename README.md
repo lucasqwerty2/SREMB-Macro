@@ -28,6 +28,24 @@ A custom 8-key mechanical macro pad built around the Raspberry Pi Pico (RP2040),
 
 ---
 
+## Bill Of Materials
+
+-  Raspberry Pi Pico Board RP2040: https://s.click.aliexpress.com/e/_c3NDPDzn
+
+-  1.3 Inch OLED Display with EC11 Rotary Encoder: https://s.click.aliexpress.com/e/_c3gGm5gl
+  
+-  8 MX style switches: https://s.click.aliexpress.com/e/_c4Xbu34N
+  
+-  6x M2 Threaded Heat Inserts (3.5MM OD, 3MM length): https://s.click.aliexpress.com/e/_c37dvqgp
+  
+-  4x M2 10mm Screws: https://s.click.aliexpress.com/e/_c3lXKoyZ
+
+-  4x M3 Threaded Heat Inserts (4MM OD, 4MM length): https://s.click.aliexpress.com/e/_c4CYoKlT
+
+-  4x M3 6MM Screws: https://s.click.aliexpress.com/e/_c3ZKYKNb
+
+---
+
 ## Firmware Setup
 
 ### 1. Install QMK MSYS
