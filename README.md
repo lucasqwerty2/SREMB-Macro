@@ -61,9 +61,9 @@ Complete the initial setup process and allow it to install all required dependen
 
 Locate the folder named: sremb
 
-Copy the entire folder into: qmk_firmware/keyboards/handwired
+Copy the entire folder into: Vial-qmk/keyboards/handwired
 
-After copying, the folder structure should look like this: qmk_firmware/keyboards/handwired/sremb
+After copying, the folder structure should look like this: Vial-qmk/keyboards/handwired/sremb
 
 
 ### 3. Compile and Flash the Firmware
