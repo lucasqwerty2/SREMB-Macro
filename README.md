@@ -48,7 +48,7 @@ A custom 8-key mechanical macro pad built around the Raspberry Pi Pico (RP2040),
 
 ## Firmware Setup
 
-Please see the readme in the SERMB qmk folder
+Please see the readme in the folder named "sremb"
 
 ---
 
