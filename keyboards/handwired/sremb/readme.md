@@ -20,20 +20,9 @@ qmk setup
 3. Directory Structure
 
 Place your keyboard files in the keyboards/handwired/ directory. Your structure should look like this:
-Plaintext
 
-vial-qmk/
-└── keyboards/
-    └── handwired/
-        └── sremb/
-            ├── info.json       <-- Hardware definitions (Matrix, Pins, Encoder)
-            ├── rules.mk        <-- Build flags
-            ├── config.h        <-- Advanced C-level configuration
-            └── keymaps/
-                └── vial/
-                    ├── keymap.c
-                    └── vial.json <-- Vial layout mapping
-
+qmk_firmware/vial-qmk/keyboards/handwired/sremb/
+          
 
 5. Compiling the Firmware
 
