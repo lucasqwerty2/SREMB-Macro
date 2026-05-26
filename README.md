@@ -74,4 +74,9 @@ Please see the readme in the folder named "sremb"
 
 ### Wiring Matrix Layout:
 I didn't put 3v and gng pinouts in this but those are pretty self explanitory 
-<img width="1341" height="927" alt="Screenshot 2026-05-24 103130" src="https://github.com/user-attachments/assets/79217557-3da0-4322-ba2f-bdd17784218f" />
+<img width="1341" height="927" alt="Screenshot 2026-05-24 103130" src="https://github.com/user-attachments/assets/79217557-3da0-4322-ba2f-bdd17784218f" 
+
+---
+
+<img width="641" height="989" alt="Screenshot 2026-05-26 173218" src="https://github.com/user-attachments/assets/c1c8a441-9ecc-4709-a8de-ef7c064fb7ca" />
+
