@@ -78,6 +78,7 @@ I didn't put 3v and gng pinouts in this but those are pretty self explanitory
 
 ---
 
-<img width="538" height="829" alt="Screenshot 2026-05-26 175353" src="https://github.com/user-attachments/assets/1d90a872-55fd-4d20-8333-e12ed2a3748d" />
+
+<img width="647" height="987" alt="Screenshot 2026-06-02 145723" src="https://github.com/user-attachments/assets/1a947fab-488b-470a-b9d7-21dd6edba1ec" />
 
 
